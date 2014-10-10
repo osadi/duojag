@@ -28,18 +28,6 @@
         <!-- The form -->
         <form role="form" class="main-form">
           <div class="form-group">
-            <label for="name">Skriv in ditt namn</label>
-            <input type="text" class="form-control" id="name" placeholder="Ditt namn">
-          </div>
-          <div class="form-group">
-            <label for="name">Vart åker du ifrån?</label>
-            <select class="form-control">
-              <option>Göteborg</option>
-              <option>Malmö</option>
-              <option>Köpenhamn</option>
-            </select>
-          </div>
-          <div class="form-group">
             <label for="name">Vart ska du?</label>
             <select class="form-control">
               <option>Göteborg</option>
@@ -57,11 +45,10 @@
       <footer>
         <p>&copy; DuoJag 2014</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    </div> <!-- /container -->
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
 
-        <script src="js/main.js"></script>
     </body>
 </html>

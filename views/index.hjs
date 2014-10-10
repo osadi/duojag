@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>DuoJag</title>
+        <meta name="description" content="{{ projectName }} fixar biljetten">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="stylesheets/style.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>DuoJag fixar biljetten!</h1>
+        <p>Din väg till en billigare Duo biljett, en ny reskompis, och kanske en vän för livet.</p>
+
+        <!-- The form -->
+        <form role="form" class="main-form">
+          <div class="form-group">
+            <label for="name">Skriv in ditt namn</label>
+            <input type="text" class="form-control" id="name" placeholder="Ditt namn">
+          </div>
+          <div class="form-group">
+            <label for="name">Vart åker du ifrån?</label>
+            <select class="form-control">
+              <option>Göteborg</option>
+              <option>Malmö</option>
+              <option>Köpenhamn</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="name">Vart ska du?</label>
+            <select class="form-control">
+              <option>Göteborg</option>
+              <option>Malmö</option>
+              <option>Köpenhamn</option>
+            </select>
+          </div>
+          <input type="submit" class="btn btn-primary btn-lg" role="button" value="Hitta resekompis &raquo;">
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; DuoJag 2014</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

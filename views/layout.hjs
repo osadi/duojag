@@ -15,21 +15,22 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-    {{$content}} default content {{/content}}
+        {{$content}} default content {{/content}}
 
-    <div class="container">
-      <hr>
-      <footer>
-        <p>&copy; DuoJag 2014</p>
-      </footer>
-    </div> <!-- /container -->
+        <div class="container">
+          <hr>
+          <footer>
+            <p>&copy; DuoJag 2014</p>
+          </footer>
+        </div> <!-- /container -->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="javascripts/main.js"></script>
 
     </body>
 </html>

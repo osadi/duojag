@@ -1,0 +1,15 @@
+{{<layout}}
+  {{$content}}
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Åh nej!</h1>
+        <p>Just nu finns det ingen annan ensam resenär i närheten som ska till
+          samma station som du. Vänta kvar här, så matchas du nog mot någon
+          annan alldeles strax. Du kan ju klippa en kaffe och en bulle så länge,
+          kanske?</p>
+      </div>
+    </div>
+
+  {{/content}}
+{{/layout}}

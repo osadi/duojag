@@ -1,0 +1,43 @@
+{{<layout}}
+  {{$content}}
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Matchning!</h1>
+        <p>Du har matchats mot en annan resenär som är i närheten och ska till
+          samma slutstation. Använd chatten nedan för att hitta varandra.
+          Trevlig resa.</p>
+
+      <div class="chat-wrapper">
+        <div class="chat">
+          <div class="chat-row you">
+            Hej hej.
+          </div>
+          <div class="chat-row">
+            Nemen hejsan. Va kul att vi hitta varann. Vart
+            är du?
+          </div>
+          <div class="chat-row you">
+            Ja verkligen :) Jag är vid automaten. Ska vi ses
+            här kanske?
+          </div>
+          <div class="chat-row">
+            Låter bra. Jag är där om ett par minuter.
+          </div>
+          <div class="chat-row you">
+            Fint. Vi ses strax!
+          </div>
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="button">Skicka</button>
+          </span>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+  {{/content}}
+{{/layout}}

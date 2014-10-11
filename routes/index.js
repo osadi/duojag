@@ -36,6 +36,7 @@ router.get('/waiting', function(req, res) {
 
 router.post('/search', function(req, res) {
     console.log(req.body);
+    console.log(currentUsers);
     res.render('waiting', {
         projectName: "DuoJag",
         partials: {

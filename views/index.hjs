@@ -8,13 +8,13 @@
         <p>Din väg till en billigare Duo biljett, en ny reskompis, och kanske en vän för livet.</p>
 
         <!-- The form -->
-        <form role="form" class="main-form" action="match">
+        <form role="form" class="main-form" action="search" method="POST">
           <div class="form-group">
-            <label for="name">Vart ska du?</label>
-            <select class="form-control">
-              <option>Göteborg</option>
-              <option>Malmö</option>
-              <option>Köpenhamn</option>
+            <label for="destination">Vart ska du?</label>
+            <select class="form-control" name="destination">
+              {{#stations}}
+                <option name="{{name}}">{{name}}</option>
+              {{/stations}}
             </select>
           </div>
           <input type="submit" class="btn btn-primary btn-lg" role="button" value="Hitta resekompis &raquo;">
